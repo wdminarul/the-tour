@@ -14,6 +14,7 @@ const Header = () => {
   const goHome = ()=>{
     history.push('/home')
   }
+  // menu bar section 
     return (
         <div className="">
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
@@ -22,9 +23,9 @@ const Header = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
   <Nav className="ms-auto">
+    {/* conditionla rendaring  */}
     {user.email ?(
       <Nav >
-              
               <button className="btn btn-danger" onClick={logOut}>Log Out</button>
               <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
               <Nav.Link as={HashLink} to="/my-order">My Order</Nav.Link>

@@ -7,6 +7,7 @@ const Login = () => {
     const {googleSignIn}=useFirebase()
     return (
         <div className="pt-5 mt-5 text-center">
+            {/* google login button  */}
             <img src={google} alt=""  className="border-none pt-5 mt-5 pb-5 mb-5" onClick={googleSignIn}/>
         </div>
     );

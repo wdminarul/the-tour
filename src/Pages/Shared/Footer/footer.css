@@ -1,0 +1,14 @@
+.heading{
+    color:#fff;
+    text-align: center;
+}
+.about-heading{
+    color:#fff;
+}
+.general-services p{
+    cursor: pointer;
+}
+.subscriber form input{
+    outline: none;
+    border: none;
+}

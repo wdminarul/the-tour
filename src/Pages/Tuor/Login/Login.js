@@ -8,7 +8,7 @@ const Login = () => {
     return (
         <div className="pt-5 mt-5 text-center">
             {/* google login button  */}
-            <img src={google} alt=""  className="border-none pt-5 mt-5 pb-5 mb-5" onClick={googleSignIn}/>
+            <img src={google} alt=""  className="border-none pt-5 mt-5 pb-5 mb-5 img-fluid" onClick={googleSignIn}/>
         </div>
     );
 };

@@ -95,7 +95,7 @@ const Manage = () => {
       <input type="upload" {...register("img",  { required: true })} placeholder="Image url link here"className="w-25" />
       <br />
       <br />
-          <textarea name="" {...register("description",  { required: true })}  id="" cols="40" rows="8" placeholder="service related describtion"></textarea>
+          <textarea name="" {...register("description",  { required: true })}  id="" cols="40" rows="8" placeholder="service related describtion" className="w-75"></textarea>
           <br />
           <br />
       <input className="btn btn-danger" type="submit" />
